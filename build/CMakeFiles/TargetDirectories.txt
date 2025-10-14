@@ -1,0 +1,4 @@
+C:/Users/USER/OneDrive/Desktop/Linux/Lab2/build/CMakeFiles/project.dir
+C:/Users/USER/OneDrive/Desktop/Linux/Lab2/build/CMakeFiles/main.dir
+C:/Users/USER/OneDrive/Desktop/Linux/Lab2/build/CMakeFiles/edit_cache.dir
+C:/Users/USER/OneDrive/Desktop/Linux/Lab2/build/CMakeFiles/rebuild_cache.dir
