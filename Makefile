@@ -10,7 +10,7 @@ $(LIB): project.o
 	ar rcs $(LIB) project.o
 
 $(TARGET): main.o $(LIB)
-	$(CC) $(CFLAGS) -o $(TARGET) main.o -L, -lmath
+	$(CC) $(CFLAGS) -o $(TARGET) main.o -L. -lmath
 
 main.o: main.c project.h
 	$(CC) $(CFLAGS) -c main.c
@@ -19,5 +19,5 @@ project.o: project.c project.h
 	$(CC) $(CFLAGS) -c project.c
 
 clean:
-	rm -f *.o $(TARGET) $(LIB)
+	cmd /C "del /Q *.o $(TARGET).exe $(LIB)"
 
